@@ -20,8 +20,8 @@ int cbinsearch(int *arr, int size, int value) {
         } else {
             j = ser;
         }
-    }   
- i = 0, j = size - 1;
+    }
+    i = 0, j = size - 1;
     while (i < j) {
         int ser = i + (j - i) / 2;
         if (arr[ser] == value && arr[ser - 1] != value) {
